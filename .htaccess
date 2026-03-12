@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /belægning-demo/
+RewriteBase /belaegning-demo/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /belægning-demo/index.html [L]
+RewriteRule . /belaegning-demo/index.html [L]
